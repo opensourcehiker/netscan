@@ -2,7 +2,7 @@
 Created on Jul 25, 2015
 @author: max
 ***RUN AS ROOT
-1. Install the two required python libraries, wifi and netscan-notify.
+1. Install the two required python libraries, wifi and python-notify.
 3. Create a new instance of netscan.desktop and input the details (name, command, etc.)
 4. Test out the new netscan-notify library by alerting the user that the setup process has finished.
 '''
