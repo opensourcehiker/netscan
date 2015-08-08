@@ -2,9 +2,10 @@
 Created on Jul 25, 2015
 @author: max
 ***RUN AS ROOT
-1. Install the two required python libraries, wifi and python-notify.
-3. Create a new instance of netscan.desktop and input the details (name, command, etc.)
-4. Test out the new netscan-notify library by alerting the user that the setup process has finished.
+1. Install/update Upstart (Ubuntu default autostart daemon)
+2. Install the two required python libraries, wifi and python-notify.
+3. Puts an auto-start configuration file into the Upstart file folder
+4. Test out the new python-notify library by alerting the user that the setup process has finished.
 '''
 from subprocess import call
 from os import path
